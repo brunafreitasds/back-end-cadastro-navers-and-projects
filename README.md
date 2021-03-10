@@ -13,10 +13,11 @@ Cada naver é composto pelos seguintes atributos:
 -job_role<br>
 -index_project<br>
 -index_naver<br>
+<h2>Documentação da apliacação</h2>
+<strong>Detalhes</strong>
 
-<strong>Detalhes</strong><br>
 <br>Cada project é composto pelos seguintes atributos:
-
+<br>
 -name <br>
 -index_project<br>
 -index_naver<br>
