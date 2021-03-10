@@ -10,10 +10,6 @@ const structProject = new mongoose.Schema({
     index_naver: {
         type: String,
         required: true
-    },
-    id_naver: {
-        type: ObjectIDForModel,
-        ref: "navers"
     }
 
 })
