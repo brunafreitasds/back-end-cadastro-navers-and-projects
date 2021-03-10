@@ -27,7 +27,7 @@ Cada project é composto pelos seguintes atributos:
 
  PARA FAZER CONSULTAS NO BANCO:
 
-<strong> Rotas Navers </strong>
+<strong> Rotas dos Navers </strong>
 
 - localhost:3000/navers/list-navers - para fazer a leitura de todos os navers;
 - localhost:3000/navers/getbyId/:id - para fazer a leitura de um naver em específico com base no ID dele;
@@ -36,7 +36,7 @@ Cada project é composto pelos seguintes atributos:
 - localhost:3000/navers/new-naver - para criar e adicionar um naver no banco;
 - localhost:3000/navers/delete/:id - para excluir um naver no banco;
 
-<strong> Rotas Projects </strong>
+<strong> Rotas dos Projects </strong>
 
 - localhost:3000/projects/list-projects - para fazer a leitura de todos os projetos;
 - localhost:3000/projects/getbyId/:id - para fazer a leitura de um projeto em específico com base no ID dele;

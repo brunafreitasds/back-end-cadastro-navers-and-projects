@@ -1,3 +1,5 @@
+//módulo responsavel por manipular os dados e separar a lógica de dados da aplicação
+
 const project_service = require("../services/projects");
 
 module.exports = project_controller = {
