@@ -15,7 +15,7 @@ Cada naver é composto pelos seguintes atributos:
 -index_naver<br>
 
 <strong>Detalhes</strong><br>
-Cada project é composto pelos seguintes atributos:
+<br>Cada project é composto pelos seguintes atributos:
 
 -name <br>
 -index_project<br>
