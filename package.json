@@ -1,0 +1,26 @@
+{
+  "name": "teste-bruna-nave",
+  "version": "1.0.0",
+  "description": "teste técnico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruna01freitas/teste-bruna-nave.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bruna01freitas/teste-bruna-nave/issues"
+  },
+  "homepage": "https://github.com/bruna01freitas/teste-bruna-nave#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.19",
+    "q": "^1.5.1"
+  }
+}
