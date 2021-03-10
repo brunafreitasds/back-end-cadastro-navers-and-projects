@@ -1,5 +1,4 @@
-# teste-bruna-nave
-teste técnico
+
 <h1>Documentação teste técnico estagio back-end </h1>
 
 Por: Bruna dos Santos Freitas
@@ -14,14 +13,14 @@ Cada naver é composto pelos seguintes atributos:
 -index_project<br>
 -index_naver<br>
 
-<br>Cada project é composto pelos seguintes atributos:
+Cada project é composto pelos seguintes atributos:
+
 <br>
 -name <br>
 -index_project<br>
 -index_naver<br>
 <h2>Documentação da apliacação</h2>
 <strong>Detalhes</strong>
-
 <strong> Iniciar o servidor </strong>
 
 -npm install <br>
