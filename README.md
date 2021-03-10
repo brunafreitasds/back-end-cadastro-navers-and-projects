@@ -18,7 +18,7 @@ Cada project é composto pelos seguintes atributos:
 -name <br>
 -index_project<br>
 -index_naver<br>
-<h2>Documentação da apliacação</h2>
+<h2>Documentação da aplicacação</h2>
 <strong>Detalhes</strong>
 <strong> Iniciar o servidor </strong>
 
@@ -45,4 +45,14 @@ Cada project é composto pelos seguintes atributos:
 - localhost:3000/projects/new-project - para criar e adicionar um project no banco;
 - localhost:3000/projects/delete/:id - para excluir um project no banco;
 
+<strong>Tecnologias utilizadas</strong><br>
+-MongoDB -banco de dados utilizado na aplicação;
+-Mongoose -  biblioteca para abstrair a camada de dados;
+-Express - conectar a aplicação no servidor web;
+-Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração.
+-pacote q - trabalhar com promisses e nivelar os erros conforme ordem da pírâmide;
+-pacote body-parser - trabalhar com os dados do form;
 
+
+
+<strong>Dificuldades</strong><br>

@@ -6,7 +6,7 @@ router.get("/list-projects", project_controller.get_projects);
 
 router.get("/getbyId/:id", project_controller.get_project_byId);
 
-router.get("/getbyname", project_controller.get_project_byName);
+router.get("/getbyName", project_controller.get_project_byName);
 
 //router.get("/getbynaver", project_controller.get_project_byNaver);
 
