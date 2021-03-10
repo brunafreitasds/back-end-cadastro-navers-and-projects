@@ -46,13 +46,10 @@ Cada project é composto pelos seguintes atributos:
 - localhost:3000/projects/delete/:id - para excluir um project no banco;
 
 <strong>Tecnologias utilizadas</strong><br>
--MongoDB -banco de dados utilizado na aplicação;
--Mongoose -  biblioteca para abstrair a camada de dados;
--Express - conectar a aplicação no servidor web;
--Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração.
--pacote q - trabalhar com promisses e nivelar os erros conforme ordem da pírâmide;
--pacote body-parser - trabalhar com os dados do form;
-
-
-
+-MongoDB -banco de dados utilizado na aplicação;<br>
+-Mongoose -  biblioteca para abstrair a camada de dados;<br>
+-Express - conectar a aplicação no servidor web;<br>
+-Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração.<br>
+-pacote q - trabalhar com promisses e nivelar os erros conforme ordem da pírâmide;<br>
+-pacote body-parser - trabalhar com os dados do form;<br>
 <strong>Dificuldades</strong><br>
