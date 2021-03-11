@@ -6,7 +6,7 @@ Por: Bruna dos Santos Freitas<br>
 <strong>Link das resoluções dos exercícios de lógica no Codesandbox</strong><br>
 <href>https://codesandbox.io/s/teste-estagio-template-bruna-forked-ewv6z?file=/src/exercise01.js</href>
 
-<strong>Detalhes</strong><br>
+<strong>Detalhes:</strong><br>
 Cada naver é composto pelos seguintes atributos:
 
 -name <br>
@@ -21,32 +21,32 @@ Cada project é composto pelos seguintes atributos:
 -name <br>
 -index_project<br>
 -index_naver<br>
-<h2>Documentação da aplicacação</h2>
+<h2>Documentação da aplicacação:</h2>
 <br>
-<strong> Iniciar o servidor </strong>
+<strong> Iniciar o servidor: </strong>
 
 -npm install <br>
 -nodemon app.js
 
  PARA FAZER CONSULTAS NO BANCO:
 
-<strong> Rotas dos Navers </strong>
+<strong> Rotas dos Navers:</strong>
 
-- localhost:3000/navers/list-navers - para fazer a leitura de todos os navers;
-- localhost:3000/navers/getbyId/:id - para fazer a leitura de um naver em específico com base no ID dele;
-- localhost:3000/navers/getbyName/:id - para filtrar um naver em específico com base Name dele
-- localhost:3000/navers/update-naver/:id - para editar um naver em específico com base no ID dele;
-- localhost:3000/navers/new-naver - para criar e adicionar um naver no banco;
-- localhost:3000/navers/delete/:id - para excluir um naver no banco;
+- <strong>GET</strong> localhost:3000/navers/list-navers - para fazer a leitura de todos os navers;
+- <strong>GET</strong> localhost:3000/navers/getbyId/:id - para fazer a leitura de um naver em específico com base no ID dele;
+- <strong>GET</strong> localhost:3000/navers/getbyName/:id - para filtrar um naver em específico com base Name dele
+- <strong>PUT</strong> localhost:3000/navers/update-naver/:id - para editar um naver em específico com base no ID dele;
+- <strong>POST</strong> localhost:3000/navers/new-naver - para criar e adicionar um naver no banco;
+- <strong>DELETE</strong> localhost:3000/navers/delete/:id - para excluir um naver no banco;
 
-<strong> Rotas dos Projects </strong>
+<strong> Rotas dos Projects: </strong>
 
-- localhost:3000/projects/list-projects - para fazer a leitura de todos os projetos;
-- localhost:3000/projects/getbyId/:id - para fazer a leitura de um projeto em específico com base no ID dele;
-- localhost:3000/projects/getbyName/:id - para filtrar um project em específico com base Name dele
-- localhost:3000/projects/update-project/:id - para editar um project em específico com base no ID dele;
-- localhost:3000/projects/new-project - para criar e adicionar um project no banco;
-- localhost:3000/projects/delete/:id - para excluir um project no banco;
+- <strong>GET</strong> localhost:3000/projects/list-projects - para fazer a leitura de todos os projetos;
+- <strong>GET</strong> localhost:3000/projects/getbyId/:id - para fazer a leitura de um projeto em específico com base no ID dele;
+- <strong>GET</strong> localhost:3000/projects/getbyName/:id - para filtrar um project em específico com base Name dele
+- <strong>PUT</strong> localhost:3000/projects/update-project/:id - para editar um project em específico com base no ID dele;
+- <strong>POST</strong> localhost:3000/projects/new-project - para criar e adicionar um project no banco;
+- <strong>DELETE</strong> localhost:3000/projects/delete/:id - para excluir um project no banco;
 
 <strong>Tecnologias utilizadas: </strong><br>
 - MongoDB - banco de dados utilizado na aplicação;<br>
@@ -55,4 +55,4 @@ Cada project é composto pelos seguintes atributos:
 - Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração.<br>
 - pacote q - trabalhar com promisses e nivelar os erros conforme ordem da pírâmide;<br>
 - pacote body-parser - trabalhar com os dados do form;<br>
-<br><strong>Dificuldades desafio back-end</strong><br>
+<br><strong>Dificuldades desafio back-end:</strong><br>
