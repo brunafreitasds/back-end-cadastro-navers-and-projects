@@ -2,7 +2,8 @@
 <h1>Documentação teste técnico estagio back-end </h1>
 
 Por: Bruna dos Santos Freitas<br>
-<strong>Link das resoluções dos exercícios de lógica no sandbox</strong><br>
+<br>
+<strong>Link das resoluções dos exercícios de lógica no Codesandbox</strong><br>
 <href>https://codesandbox.io/s/teste-estagio-template-bruna-forked-ewv6z?file=/src/exercise01.js</href>
 
 <strong>Detalhes</strong><br>
@@ -21,7 +22,7 @@ Cada project é composto pelos seguintes atributos:
 -index_project<br>
 -index_naver<br>
 <h2>Documentação da aplicacação</h2>
-<strong>Detalhes</strong>
+<br>
 <strong> Iniciar o servidor </strong>
 
 -npm install <br>
@@ -54,4 +55,4 @@ Cada project é composto pelos seguintes atributos:
 - Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração.<br>
 - pacote q - trabalhar com promisses e nivelar os erros conforme ordem da pírâmide;<br>
 - pacote body-parser - trabalhar com os dados do form;<br>
-<strong>Dificuldades desafio back-end</strong><br>
+<br><strong>Dificuldades desafio back-end</strong><br>
