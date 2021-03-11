@@ -150,4 +150,29 @@ module.exports = naver_service = {
                 });
         });
     },
+    getNavers_and_projets: (req, res) => {
+        var promisse = naverModel.aggregate([
+            /*{
+                $match: {
+                    index_project : new index_project(req.params.id)
+                }
+            },*/
+
+            {
+                $lookup: {
+                    from: "projects",
+                    localField: "index_project",
+                    foreignField: "index_project",
+                    as: "projects"
+                }
+            },
+        ]).exec();
+
+        promisse.then(function(data) {
+                res.json(data);
+            })
+            .catch(function(err) {
+                res.json({ success: false, err: err, message: message.err.fail });
+            });
+    }
 };

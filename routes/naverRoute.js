@@ -4,6 +4,7 @@ var naver_controller = require("../controllers/naverController");
 var naver_service = require("../services/navers")
 
 router.get("/list-navers", naver_controller.get_navers);
+router.get("/list-dif", naver_service.getNavers_and_projets);
 
 router.get("/getbyId/:id", naver_service.get_naver_byId);
 

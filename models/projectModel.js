@@ -4,11 +4,11 @@ const structProject = new mongoose.Schema({
         required: true
     },
     index_project: {
-        type: String,
+        type: Number,
         required: true
     },
     index_naver: {
-        type: String,
+        type: Number,
         required: true
     }
 

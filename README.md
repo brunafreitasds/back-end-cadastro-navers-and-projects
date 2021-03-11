@@ -1,7 +1,9 @@
 
 <h1>Documentação teste técnico estagio back-end </h1>
 
-Por: Bruna dos Santos Freitas
+Por: Bruna dos Santos Freitas<br>
+<strong>Link das resoluções dos exercícios de lógica no sandbox</strong><br>
+<href>https://codesandbox.io/s/teste-estagio-template-bruna-forked-ewv6z?file=/src/exercise01.js</href>
 
 <strong>Detalhes</strong><br>
 Cada naver é composto pelos seguintes atributos:
@@ -45,11 +47,11 @@ Cada project é composto pelos seguintes atributos:
 - localhost:3000/projects/new-project - para criar e adicionar um project no banco;
 - localhost:3000/projects/delete/:id - para excluir um project no banco;
 
-<strong>Tecnologias utilizadas</strong><br>
--MongoDB -banco de dados utilizado na aplicação;<br>
--Mongoose -  biblioteca para abstrair a camada de dados;<br>
--Express - conectar a aplicação no servidor web;<br>
--Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração.<br>
--pacote q - trabalhar com promisses e nivelar os erros conforme ordem da pírâmide;<br>
--pacote body-parser - trabalhar com os dados do form;<br>
-<strong>Dificuldades</strong><br>
+<strong>Tecnologias utilizadas: </strong><br>
+- MongoDB - banco de dados utilizado na aplicação;<br>
+- Mongoose - biblioteca para abstrair a camada de dados;<br>
+- Express - conectar a aplicação no servidor web;<br>
+- Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração.<br>
+- pacote q - trabalhar com promisses e nivelar os erros conforme ordem da pírâmide;<br>
+- pacote body-parser - trabalhar com os dados do form;<br>
+<strong>Dificuldades desafio back-end</strong><br>
