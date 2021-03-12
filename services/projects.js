@@ -50,32 +50,14 @@ module.exports = project_service = {
                 });
         });
     },
-    /**
-     * @name get_project_byCategory - retorna o produto com base na category informada
-     * 
-     * @param {String} category
-     * 
-     * @returns {Promise}
-     */
-    /*get_product_byCategory: (category) => {
-
-      return new Promise((resolve, reject) => {
-        var getCategory = productModel.find({ category: category }).exec();
-        getCategory
-          .then((getCategory) => {
-            resolve(getCategory);
-          })
-          .catch((error) => {
-            reject(error);
-          });
-      });
-    },*/
 
     /**
      * @name create_project - cria o projeto com base no preenchimento do formulário
      * 
      * @param {String} name - nome do projeto
      * @param {String} navers - id dos navers que fazem parte do projeto
+     * @param {number} index_project- index do project
+     *  @param {number} index_naver-index do naver
      * 
      * @returns {Promise}
      */
@@ -83,14 +65,14 @@ module.exports = project_service = {
         name,
         index_project,
         index_naver,
-        id_naver,
+        id_naver
     ) => {
         return new Promise((resolve, reject) => {
             var newprojectModel = new projectModel({
                 name,
                 index_project,
                 index_naver,
-                id_naver,
+                id_naver
             }).save();
             newprojectModel
                 .then((newproject) => {
@@ -127,8 +109,10 @@ module.exports = project_service = {
     /**
      * @name update_project - edita e atualiza o projeto com base no preenchimento do formulário
      * 
-     * @param {String} title - nome do projeto
-     * @param {String} id_navers - navers do projeto
+     *@param {String} name - nome do projeto
+     *@param {String} navers - id dos navers que fazem parte do projeto
+     *@param {number} index_project- index do project
+     *@param {number} index_naver-index do naver
      *
      * @returns {Promise}
      */
@@ -136,7 +120,7 @@ module.exports = project_service = {
         name,
         index_project,
         index_naver,
-        id_naver,
+
     ) => {
         return new Promise((resolve, reject) => {
             var updateProject = projectModel
