@@ -174,5 +174,29 @@ module.exports = naver_service = {
             .catch(function(err) {
                 res.json({ success: false, err: err, message: message.err.fail });
             });
+    },
+    get_naver_byId_projects: (req, res) => {
+        var promisse = naverModel.aggregate([{
+                $match: {
+                    _id: new ObjectId(req.params.id)
+                }
+            },
+
+            {
+                $lookup: {
+                    from: "projects",
+                    localField: "index_project",
+                    foreignField: "index_project",
+                    as: "project"
+                }
+            }
+        ]).exec();
+
+        promisse.then(function(data) {
+                res.json(data);
+            })
+            .catch(function(err) {
+                res.json({ success: false, err: err, message: message.err.fail });
+            });
     }
 };

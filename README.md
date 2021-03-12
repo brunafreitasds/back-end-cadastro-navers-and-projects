@@ -55,4 +55,4 @@ Cada project é composto pelos seguintes atributos:
 - Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração.<br>
 - pacote q - trabalhar com promisses e nivelar os erros conforme ordem da pírâmide;<br>
 - pacote body-parser - trabalhar com os dados do form;<br>
-<br><strong>Dificuldades desafio back-end:</strong><br>
+<strong>Dificuldades desafio back-end:</strong><br>

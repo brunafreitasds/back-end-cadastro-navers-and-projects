@@ -158,4 +158,28 @@ module.exports = project_service = {
                 });
         });
     },
+    get_project_byId_and_navers: (req, res) => {
+        var promisse = projectModel.aggregate([{
+                $match: {
+                    _id: new ObjectId(req.params.id)
+                }
+            },
+
+            {
+                $lookup: {
+                    from: "navers",
+                    localField: "index_project",
+                    foreignField: "index_project",
+                    as: "Navers:"
+                }
+            }
+        ]).exec();
+
+        promisse.then(function(data) {
+                res.json(data);
+            })
+            .catch(function(err) {
+                res.json({ success: false, err: err, message: message.err.fail });
+            });
+    }
 };

@@ -2,15 +2,14 @@
 const router = express.Router();
 var naver_controller = require("../controllers/naverController");
 var naver_service = require("../services/navers")
-
+    //get geral dos navers
 router.get("/list-navers", naver_controller.get_navers);
-router.get("/list-dif", naver_service.getNavers_and_projets);
-
-router.get("/getbyId/:id", naver_service.get_naver_byId);
+//get geral de todos os navers e seus projetos
+router.get("/list-navers-and-projects", naver_service.getNavers_and_projets);
+//get específico dos navers por id
+router.get("/getbyId/:id", naver_service.get_naver_byId_projects);
 
 router.get("/getbyName", naver_controller.get_naver_byName);
-
-//router.get("/getbycategory", naver_controller.get_naver_byCategory);
 
 router.put("/update-naver/:id", naver_controller.update_naver);
 
