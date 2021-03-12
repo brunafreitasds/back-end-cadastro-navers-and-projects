@@ -5,7 +5,6 @@ Por: Bruna dos Santos Freitas<br>
 <br>
 <strong>Link das resoluções dos exercícios de lógica no Codesandbox</strong><br>
 <href>https://codesandbox.io/s/teste-estagio-template-bruna-forked-ewv6z?file=/src/exercise01.js</href>
-
 <strong>Detalhes:</strong><br>
 Cada naver é composto pelos seguintes atributos:
 
@@ -14,7 +13,7 @@ Cada naver é composto pelos seguintes atributos:
 -birthdate<br>
 -job_role<br>
 -index_project<br>
--index_naver<br>
+-index_naver
 
 Cada project é composto pelos seguintes atributos:
 
@@ -22,7 +21,7 @@ Cada project é composto pelos seguintes atributos:
 -index_project<br>
 -index_naver<br>
 <h2>Documentação da aplicacação:</h2>
-<br>
+
 <strong> Iniciar o servidor: </strong>
 
 -npm install <br>
