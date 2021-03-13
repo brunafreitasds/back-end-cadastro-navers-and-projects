@@ -4,10 +4,11 @@
 Por: Bruna dos Santos Freitas<br>
 <br>
 <strong>Link das resoluções dos exercícios de lógica no Codesandbox</strong><br>
-<href>https://codesandbox.io/s/teste-estagio-template-bruna-forked-ewv6z?file=/src/exercise01.js</href>
-<strong>Dificuldades desafio back-end:</strong><br>
+<href>https://codesandbox.io/s/teste-estagio-template-bruna-forked-ewv6z?file=/src/exercise01.js</href><br>
+<strong>Dificuldades exercícios de lógica:</strong><br>
+- No exercício 10, encontrei dificuldade de acessar os valores filtrados no array.
 
-<strong>Intrdução</strong><br>
+<strong>Introdução</strong><br>
 <strong>Tecnologias utilizadas: </strong><br>
 - NodeJs - banco de dados utilizado na aplicação;<br>
 - MongoDB - banco de dados utilizado na aplicação;<br>
