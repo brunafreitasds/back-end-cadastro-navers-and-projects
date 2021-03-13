@@ -23,8 +23,8 @@ Cada naver é composto pelos seguintes atributos:<br>
 -job_role<br>
 -admission_date<br>
 -index_project<br>
--index_naver
-
+-index_naver<br>
+<br>
 Cada project é composto pelos seguintes atributos:
 -name <br>
 -index_project<br>
