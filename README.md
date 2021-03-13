@@ -16,6 +16,7 @@ Por: Bruna dos Santos Freitas<br>
 - Express - conectar a aplicação no servidor web;<br>
 - Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração.<br>
 - Foi utilizado um modelo MVC adptado com uso de services, responsável pelo acesso ao banco de dados.<br>
+<br>
 Cada naver é composto pelos seguintes atributos:
 -name <br>
 -birthdate<br>
