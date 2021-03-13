@@ -6,7 +6,7 @@ Por: Bruna dos Santos Freitas<br>
 <strong>Link das resoluções dos exercícios de lógica no Codesandbox</strong><br>
 <href>https://codesandbox.io/s/teste-estagio-template-bruna-forked-ewv6z?file=/src/exercise01.js</href><br>
 <strong>Dificuldades exercícios de lógica:</strong><br>
-- No exercício 10, encontrei dificuldade de acessar os valores filtrados no array.
+- No exercício 10, encontrei dificuldade de acessar os valores filtrados no array.<br>
 
 <h2>Introdução</strong></h2>
 <strong>Tecnologias utilizadas: </strong><br>
@@ -15,9 +15,8 @@ Por: Bruna dos Santos Freitas<br>
 - Mongoose - biblioteca para abstrair a camada de dados;<br>
 - Express - conectar a aplicação no servidor web;<br>
 - Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração.<br>
-
+- Foi utilizado um modelo MVC adptado com uso de services, responsável pelo acesso ao banco de dados.<br>
 Cada naver é composto pelos seguintes atributos:
-
 -name <br>
 -birthdate<br>
 -job_role<br>
@@ -26,7 +25,6 @@ Cada naver é composto pelos seguintes atributos:
 -index_naver
 
 Cada project é composto pelos seguintes atributos:
-
 -name <br>
 -index_project<br>
 -index_naver<br>
@@ -59,5 +57,5 @@ Cada project é composto pelos seguintes atributos:
 
 
 <strong>Dificuldades desafio back-end:</strong><br>
-- Por ter optado utilizar um banco de dados não relacional, orientado a documentos, foi necessário forçar o relacionamento dos dados.
-- Para fazer o request de um projeto em específico e puxar seus navers, é necessário g
+- Por ter optado utilizar um banco de dados não relacional, orientado a documentos, foi necessário forçar o relacionamento dos dados com o operador de agregação $lookup
+- É necessário primeiro fazer o cadasro dos projetos, e posterioemente dos navers relacionados a cada projeto.
