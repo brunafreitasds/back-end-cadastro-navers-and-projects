@@ -8,7 +8,7 @@ Por: Bruna dos Santos Freitas<br>
 <strong>Dificuldades exercícios de lógica:</strong><br>
 - No exercício 10, encontrei dificuldade de acessar os valores filtrados no array.
 
-<strong>Introdução</strong><br>
+<h2>Introdução</strong><h2>
 <strong>Tecnologias utilizadas: </strong><br>
 - NodeJs - banco de dados utilizado na aplicação;<br>
 - MongoDB - banco de dados utilizado na aplicação;<br>
@@ -30,7 +30,7 @@ Cada project é composto pelos seguintes atributos:
 -name <br>
 -index_project<br>
 -index_naver<br>
-<h2>Documentação da aplicacação:</h2>
+<h3>Documentação da aplicacação:</h3>
 
 <strong> Iniciar o servidor: </strong>
 
