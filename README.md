@@ -42,18 +42,18 @@ Cada project é composto pelos seguintes atributos:
 <strong> Rotas dos Navers:</strong>
 
 - <strong>GET</strong> localhost:3000/navers/list-navers - para fazer a leitura de todos os navers;
-- <strong>GET</strong> localhost:3000/navers/getbyId/:id - para fazer a leitura de um naver em específico com base no ID dele;
+- <strong>GET</strong> localhost:3000/navers/getbyId/:id - para fazer a leitura de um naver em específico com base no ID dele, usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
 - <strong>GET</strong> localhost:3000/navers/getbyName/:id - para filtrar um naver em específico com base no Name dele
-- <strong>PUT</strong> localhost:3000/navers/update-naver/:id - para editar um naver em específico com base no ID dele;
+- <strong>PUT</strong> localhost:3000/navers/update-naver/:id - para editar um naver em específico com base no ID dele,usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
 - <strong>POST</strong> localhost:3000/navers/new-naver - para criar e adicionar um naver no banco;
 - <strong>DELETE</strong> localhost:3000/navers/delete/:id - para excluir um naver no banco;
 
 <strong> Rotas dos Projects: </strong>
 
 - <strong>GET</strong> localhost:3000/projects/list-projects - para fazer a leitura de todos os projetos;
-- <strong>GET</strong> localhost:3000/projects/getbyId/:id - para fazer a leitura de um projeto em específico com base no ID dele;
+- <strong>GET</strong> localhost:3000/projects/getbyId/:id - para fazer a leitura de um projeto em específico com base no ID dele, usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
 - <strong>GET</strong> localhost:3000/projects/getbyName/:id - para filtrar um project em específico com base no Name dele
-- <strong>PUT</strong> localhost:3000/projects/update-project/:id - para editar um project em específico com base no ID dele;
+- <strong>PUT</strong> localhost:3000/projects/update-project/:id - para editar um project em específico com base no ID dele,usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
 - <strong>POST</strong> localhost:3000/projects/new-project - para criar e adicionar um project no banco;
 - <strong>DELETE</strong> localhost:3000/projects/delete/:id - para excluir um project no banco;
 
