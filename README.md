@@ -8,7 +8,7 @@ Por: Bruna dos Santos Freitas<br>
 <strong>Dificuldades exercícios de lógica:</strong><br>
 - No exercício 10, encontrei dificuldade de acessar os valores filtrados no array.
 
-<h2>Introdução</strong><h2>
+<h2>Introdução</strong></h2>
 <strong>Tecnologias utilizadas: </strong><br>
 - NodeJs - banco de dados utilizado na aplicação;<br>
 - MongoDB - banco de dados utilizado na aplicação;<br>
