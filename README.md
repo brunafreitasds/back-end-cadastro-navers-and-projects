@@ -15,7 +15,7 @@ Por: Bruna dos Santos Freitas<br>
 - Mongoose - biblioteca para abstrair a camada de dados;<br>
 - Express - conectar a aplicação no servidor web;<br>
 - Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração.<br>
-- Foi utilizado um modelo MVC adptado com uso de services, responsável pelo acesso ao banco de dados.<br>
+- Foi utilizado um modelo MVC adaptado com uso de services, responsável pelo acesso ao banco de dados.<br>
 <br>
 Cada naver é composto pelos seguintes atributos:<br>
 -name <br>
