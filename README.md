@@ -10,7 +10,7 @@ Por: Bruna dos Santos Freitas<br>
 
 <h2>Introdução</strong></h2>
 <strong>Tecnologias utilizadas: </strong><br>
-- NodeJs;
+- NodeJs;<br>
 - MongoDB - banco de dados utilizado na aplicação;<br>
 - Mongoose - biblioteca para abstrair a camada de dados;<br>
 - Express - conectar a aplicação no servidor web;<br>
