@@ -43,7 +43,7 @@ Cada project é composto pelos seguintes atributos:
 
 - <strong>GET</strong> localhost:3000/navers/list-navers - para fazer a leitura de todos os navers;
 - <strong>GET</strong> localhost:3000/navers/getbyId/:id - para fazer a leitura de um naver em específico com base no ID dele;
-- <strong>GET</strong> localhost:3000/navers/getbyName/:id - para filtrar um naver em específico com base Name dele
+- <strong>GET</strong> localhost:3000/navers/getbyName/:id - para filtrar um naver em específico com base no Name dele
 - <strong>PUT</strong> localhost:3000/navers/update-naver/:id - para editar um naver em específico com base no ID dele;
 - <strong>POST</strong> localhost:3000/navers/new-naver - para criar e adicionar um naver no banco;
 - <strong>DELETE</strong> localhost:3000/navers/delete/:id - para excluir um naver no banco;
@@ -52,7 +52,7 @@ Cada project é composto pelos seguintes atributos:
 
 - <strong>GET</strong> localhost:3000/projects/list-projects - para fazer a leitura de todos os projetos;
 - <strong>GET</strong> localhost:3000/projects/getbyId/:id - para fazer a leitura de um projeto em específico com base no ID dele;
-- <strong>GET</strong> localhost:3000/projects/getbyName/:id - para filtrar um project em específico com base Name dele
+- <strong>GET</strong> localhost:3000/projects/getbyName/:id - para filtrar um project em específico com base no Name dele
 - <strong>PUT</strong> localhost:3000/projects/update-project/:id - para editar um project em específico com base no ID dele;
 - <strong>POST</strong> localhost:3000/projects/new-project - para criar e adicionar um project no banco;
 - <strong>DELETE</strong> localhost:3000/projects/delete/:id - para excluir um project no banco;
@@ -60,4 +60,4 @@ Cada project é composto pelos seguintes atributos:
 
 <strong>Dificuldades desafio back-end:</strong><br>
 - Por ter optado utilizar um banco de dados não relacional, orientado a documentos, foi necessário forçar o relacionamento dos dados com o operador de agregação $lookup
-- É necessário primeiro fazer o cadasro dos projetos, e posterioemente dos navers relacionados a cada projeto.
+- É necessário primeiro fazer o cadastro dos projetos, e posterioermente dos navers relacionados a cada projeto.
