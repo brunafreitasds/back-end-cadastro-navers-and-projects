@@ -60,4 +60,7 @@ Cada project é composto pelos seguintes atributos:
 
 <strong>Dificuldades desafio back-end:</strong><br>
 - Por ter optado utilizar um banco de dados não relacional, orientado a documentos, foi necessário forçar o relacionamento dos dados com o operador de agregação $lookup.
-- É necessário primeiro fazer o cadastro dos projetos, e posterioermente dos navers relacionados a cada projeto.
+- É necessário primeiro fazer o cadastro dos projetos, e posterioermente dos navers relacionados a cada projeto.<br>
+
+<strong>Desafio bônus:</strong><br>
+- Os scripts do desafio extra estão localizados na pasta nomeada desafio_bonus.
