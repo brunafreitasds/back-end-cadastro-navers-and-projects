@@ -64,5 +64,7 @@ Cada project é composto pelos seguintes atributos:
 <strong>Desafio bônus:</strong><br>
 -Optei por utilizar o banco de dados PostgresSQL.
 - Os scripts do desafio extra estão na pasta nomeada desafio_bonus.<br>
+
+
 <strong>Dificuldades encontradas no desafiio bônus:</strong><br>
 -Encontrei maior dificuldade neste desafio, por não ter tanta experiência com banco de dados relacionais. Acredito que poderia ter feito consultas mais eficientes no banco.
