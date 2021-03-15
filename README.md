@@ -62,7 +62,7 @@ Cada project é composto pelos seguintes atributos:
 - É necessário primeiro fazer o cadastro dos projetos, e posterioermente dos navers relacionados a cada projeto.<br>
 
 <strong>Desafio bônus:</strong><br>
--Optei por utilizar o banco de dados PostgresSQL.
+-Optei por utilizar o banco de dados PostgresSQL.<br>
 -Os scripts do desafio extra estão na pasta nomeada desafio_bonus.<br>
 
 
