@@ -6,7 +6,7 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 CREATE TABLE navers(
   id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
-  nome Varchar(50),
+  name Varchar(50),
   job_role Varchar(50 ),
   birthdate Date,
   admission_date Date,
