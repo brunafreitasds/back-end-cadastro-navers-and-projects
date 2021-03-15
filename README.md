@@ -1,5 +1,5 @@
 
-<h1>Documentação teste técnico estagio back-end </h1>
+<h1>Documentação teste técnico estágio back-end </h1>
 
 <br>
 <strong>Link das resoluções dos exercícios de lógica no Codesandbox</strong><br>

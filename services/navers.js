@@ -160,6 +160,8 @@ module.exports = naver_service = {
                 });
         });
     },
+
+    // nesta seção do código, é adcionado as agregaçoes necessárias com o operador @lookup
     getNavers_and_projets: (req, res) => {
         var promisse = naverModel.aggregate([
             /*{

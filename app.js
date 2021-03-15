@@ -7,8 +7,6 @@ const bodyParser = require("body-parser");
 const { connect } = require("./config/db");
 
 const app = express();
-
-
 app.use(bodyParser.json());
 app.use(
     bodyParser.urlencoded({
@@ -24,7 +22,7 @@ app.get("/", (req, res) => {
         message: "Funcionando! :D",
     });
 });
-
+//conexão com o banco de dados da aplicação
 db = connect();
 db.then(() => {
     console.log("DB Conectado! :D");

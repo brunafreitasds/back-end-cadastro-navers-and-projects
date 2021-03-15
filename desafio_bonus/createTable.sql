@@ -6,7 +6,7 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 CREATE TABLE navers(
   id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
-  Nome Varchar(50),
+  nome Varchar(50),
   job_role Varchar(50 ),
   birthdate Date,
   admission_date Date,
@@ -31,6 +31,6 @@ CREATE TABLE project(
 
 -- DELETAR TABELAS
 
-DROP TABLE navers cascade;
-DROP TABLE project_navers cascade;
-DROP TABLE Project cascade;
+DROP TABLE navers CASCADE;
+DROP TABLE project_navers CASCADE;
+DROP TABLE project CASCADE;
