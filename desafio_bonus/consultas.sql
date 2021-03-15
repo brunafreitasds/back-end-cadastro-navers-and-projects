@@ -4,4 +4,6 @@ select navers from navers
 order by admission_date
 --E.B.4 Faça uma querie que traga todos os projetos com seus respectivos navers.
 
+select nome, id_naver from project, navers
+where project.id= = navers.id
 --E.B.5 Faça uma querie que traga todos os projetos com sua quantidade de navers.

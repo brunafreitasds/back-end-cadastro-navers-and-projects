@@ -1,7 +1,6 @@
 
 <h1>Documentação teste técnico estagio back-end </h1>
 
-Por: Bruna dos Santos Freitas<br>
 <br>
 <strong>Link das resoluções dos exercícios de lógica no Codesandbox</strong><br>
 <href>https://codesandbox.io/s/teste-estagio-template-bruna-forked-ewv6z?file=/src/exercise01.js</href><br>
@@ -42,25 +41,26 @@ Cada project é composto pelos seguintes atributos:
 <strong> Rotas dos Navers:</strong>
 
 - <strong>GET</strong> localhost:3000/navers/list-navers - Rota para listagem dos Navers.
-- <strong>GET</strong> localhost:3000/navers/getbyId - Rota para detalhar informações de um único naver através de seu identificador,usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
-- <strong>POST</strong> localhost:3000/navers/new-naver - Rora criar e adicionar um naver no banco;
-- <strong>GET</strong> localhost:3000/navers/getbyName/:id - para filtrar um naver em específico com base no Name dele;
-- <strong>PUT</strong> localhost:3000/navers/update-naver/:id - para editar um naver em específico com base no ID dele,usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
-- <strong>DELETE</strong> localhost:3000/navers/delete/:id - para excluir um naver no banco;
+- <strong>GET</strong> localhost:3000/navers/getbyId - Rota para detalhar informações de um único naver através de seu identificador, usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
+- <strong>POST</strong> localhost:3000/navers/new-naver - Rota para criar e adicionar um naver no banco;
+- <strong>GET</strong> localhost:3000/navers/getbyName/:id - Rota para filtrar um naver em específico com base no Name dele;
+- <strong>PUT</strong> localhost:3000/navers/update-naver/:id - Rota para editar um naver em específico com base no ID dele, usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
+- <strong>DELETE</strong> localhost:3000/navers/delete/:id - Rota para excluir um naver no banco;
 
 <strong> Rotas dos Projects: </strong>
 
 - <strong>GET</strong> localhost:3000/projects/list-projects - Rota para listagem dos projects.
-- <strong>GET</strong> localhost:3000/projects/getbyId/:id - Para fazer a leitura de um projeto em específico com base no ID dele, usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
-- <strong>POST</strong> localhost:3000/projects/new-project - Para criar e adicionar um project no banco;
-- <strong>GET</strong> localhost:3000/projects/getbyName/:id - Para filtrar um project em específico com base no Name dele;
-- <strong>PUT</strong> localhost:3000/projects/update-project/:id - Para editar um project em específico com base no ID dele,usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
-- <strong>DELETE</strong> localhost:3000/projects/delete/:id - para excluir um project no banco;
+- <strong>GET</strong> localhost:3000/projects/getbyId/:id - Rota para fazer a leitura de um projeto em específico com base no ID dele, usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
+- <strong>POST</strong> localhost:3000/projects/new-project - Rota para criar e adicionar um project no banco;
+- <strong>GET</strong> localhost:3000/projects/getbyName/:id - Rota para filtrar um project em específico com base no Name dele;
+- <strong>PUT</strong> localhost:3000/projects/update-project/:id - Rota para editar um project em específico com base no ID dele, usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
+- <strong>DELETE</strong> localhost:3000/projects/delete/:id - Rota para excluir um project no banco;
 
 
-<strong>Dificuldades desafio back-end:</strong><br>
+<strong>Dificuldades encontradas no desafio back-end:</strong><br>
 - Por ter optado utilizar um banco de dados não relacional, orientado a documentos, foi necessário forçar o relacionamento dos dados com o operador de agregação $lookup.
 - É necessário primeiro fazer o cadastro dos projetos, e posterioermente dos navers relacionados a cada projeto.<br>
 
 <strong>Desafio bônus:</strong><br>
-- Os scripts do desafio extra estão localizados na pasta nomeada desafio_bonus.
+-Optei por utilizar o banco de dados PostgresSQL.
+- Os scripts do desafio extra estão na pasta nomeada desafio_bonus.

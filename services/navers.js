@@ -54,8 +54,13 @@ module.exports = naver_service = {
     /**
      * @name create_navers - cria o projeto com base no preenchimento do formulário
      * 
-     * @param {String} name - nome do projeto
-     * @param {String} navers - id dos navers que fazem parte do projeto
+     * @param {String} id_model_project - id do projeto
+     * @param {String} name - name do naver
+     * @param {String} birthdate - data de nascimento do naver
+     * @param {String} job_role - cargo do naver na empresa
+     * @param {String} admission_date - data de admissão na empresa
+     * @param {String} index_project - index do projeto que o naver trabalha 
+     * @param {String} index_naver - index do naver
      * 
      * @returns {Promise}
      */
@@ -113,8 +118,13 @@ module.exports = naver_service = {
     /**
      * @name update_naver - edita e atualiza o projeto com base no preenchimento do formulário
      * 
-     * @param {String} title - nome do projeto
-     * @param {String} id_navers - navers do projeto
+     * @param {String} id_model_project - id do projeto
+     * @param {String} name - name do naver
+     * @param {String} birthdate - data de nascimento do naver
+     * @param {String} job_role - cargo do naver na empresa
+     * @param {String} admission_date - data de admissão na empresa
+     * @param {String} index_project - index do projeto que o naver trabalha 
+     * @param {String} index_naver - index do naver
      *
      * @returns {Promise}
      */

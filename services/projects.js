@@ -55,9 +55,8 @@ module.exports = project_service = {
      * @name create_project - cria o projeto com base no preenchimento do formulário
      * 
      * @param {String} name - nome do projeto
-     * @param {String} navers - id dos navers que fazem parte do projeto
      * @param {number} index_project- index do project
-     *  @param {number} index_naver-index do naver
+     * @param {number} index_naver-index do naver
      * 
      * @returns {Promise}
      */
@@ -110,7 +109,6 @@ module.exports = project_service = {
      * @name update_project - edita e atualiza o projeto com base no preenchimento do formulário
      * 
      *@param {String} name - nome do projeto
-     *@param {String} navers - id dos navers que fazem parte do projeto
      *@param {number} index_project- index do project
      *@param {number} index_naver-index do naver
      *
@@ -142,6 +140,7 @@ module.exports = project_service = {
                 });
         });
     },
+    // nesta seção do código, é adcionado as agregaçoes necessárias com o operador @lookup
     get_project_byId_and_navers: (req, res) => {
         var promisse = projectModel.aggregate([{
                 $match: {
