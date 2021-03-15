@@ -13,8 +13,8 @@
 - MongoDB - banco de dados utilizado na aplicação;<br>
 - Mongoose - biblioteca para abstrair a camada de dados;<br>
 - Express - conectar a aplicação no servidor web;<br>
-- Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração.<br>
-- Foi utilizado um modelo MVC adaptado com uso de services, responsável pelo acesso ao banco de dados.<br>
+- Nodemon - rodar o servidor em segundo plano, atualizando-o a cada alteração;<br>
+- Foi utilizado um modelo MVC adaptado com uso de services, responsável pelo acesso ao banco de dados;<br>
 <br>
 Cada naver é composto pelos seguintes atributos:<br>
 -name <br>
@@ -40,7 +40,7 @@ Cada project é composto pelos seguintes atributos:
 
 <strong> Rotas dos Navers:</strong>
 
-- <strong>GET</strong> localhost:3000/navers/list-navers - Rota para listagem dos Navers.
+- <strong>GET</strong> localhost:3000/navers/list-navers - Rota para listagem dos Navers;
 - <strong>GET</strong> localhost:3000/navers/getbyId - Rota para detalhar informações de um único naver através de seu identificador, usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
 - <strong>POST</strong> localhost:3000/navers/new-naver - Rota para criar e adicionar um naver no banco;
 - <strong>GET</strong> localhost:3000/navers/getbyName/:id - Rota para filtrar um naver em específico com base no Name dele;
@@ -49,7 +49,7 @@ Cada project é composto pelos seguintes atributos:
 
 <strong> Rotas dos Projects: </strong>
 
-- <strong>GET</strong> localhost:3000/projects/list-projects - Rota para listagem dos projects.
+- <strong>GET</strong> localhost:3000/projects/list-projects - Rota para listagem dos projects;
 - <strong>GET</strong> localhost:3000/projects/getbyId/:id - Rota para fazer a leitura de um projeto em específico com base no ID dele, usar id como por exemplo: 604a9af5cf849b6fc0080c1a;
 - <strong>POST</strong> localhost:3000/projects/new-project - Rota para criar e adicionar um project no banco;
 - <strong>GET</strong> localhost:3000/projects/getbyName/:id - Rota para filtrar um project em específico com base no Name dele;
