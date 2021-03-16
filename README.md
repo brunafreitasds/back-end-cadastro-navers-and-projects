@@ -67,4 +67,4 @@ Cada project é composto pelos seguintes atributos:
 
 
 <strong>Dificuldades encontradas no desafio bônus:</strong><br>
--Encontrei maior dificuldade neste desafio, por não ter tanta experiência com banco de dados relacionais. Acredito que poderia ter feito consultas mais eficientes no banco.
+-Encontrei maior dificuldade neste desafio, por não ter tanta experiência com banco de dados relacionais. Acredito que poderia ter feito consultas mais eficientes no banco, em especial na última querie solicitada, que não foi concluída com êxito.
