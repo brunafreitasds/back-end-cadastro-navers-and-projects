@@ -32,7 +32,7 @@ Cada project é composto pelos seguintes atributos:
 <h3>Documentação da aplicacação:</h3>
 
 <strong> Iniciar o servidor: </strong>
--Se a pasta node_modules estiver junto aos arquivos, exlua e execute os comandos abaixos.
+
 -npm install <br>
 -nodemon app.js
 
