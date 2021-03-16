@@ -1,3 +1,4 @@
+SET FOREIGN_KEY_CHECKS = 0; 
 TRUNCATE TABLE project_navers;
 
 INSERT INTO project_navers(id) VALUES (1);

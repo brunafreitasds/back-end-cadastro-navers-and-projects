@@ -1,3 +1,4 @@
+SET FOREIGN_KEY_CHECKS = 0; 
 TRUNCATE TABLE project;
 
 INSERT INTO project(name) VALUES ('front-end da empresa x');
