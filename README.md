@@ -57,7 +57,7 @@ Cada project é composto pelos seguintes atributos:
 - <strong>DELETE</strong> localhost:3000/projects/delete/:id - Rota para excluir um project no banco;
 
 
-<strong>Dificuldades encontradas no desafio back-end:</strong><br>
+<strong>Dificuldades encontradas desafio back-end:</strong><br>
 - Por ter optado utilizar um banco de dados não relacional, orientado a documentos, foi necessário forçar o relacionamento dos dados com o operador de agregação $lookup.
 - É necessário primeiro fazer o cadastro dos projetos, e posterioermente dos navers relacionados a cada projeto.<br>
 
